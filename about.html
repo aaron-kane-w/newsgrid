@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <meta name="description" content="about page">
-   <title>About</title>
+   <title>News Grid | About</title>
    <!-- Font Awesome -->
    <script src="https://kit.fontawesome.com/0c393ee940.js" crossorigin="anonymous"></script>
    <!-- Google Fonts: Link has two font styles in it Lato & Staatliches -->
@@ -45,7 +45,7 @@
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione omnis eos rem perspiciatis molestiae totam possimus repudiandae culpa? Consequuntur optio quo impedit animi. Ratione exercitationem at laudantium consequatur ex aliquam omnis, totam aut. Cumque omnis suscipit quis! Est inventore architecto debitis accusantium. A autem inventore quos dolore quaerat! Hic, molestiae?</p>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis odio at doloremque totam. Explicabo blanditiis accusamus ipsam fuga doloremque. Libero totam sed excepturi, aut ipsa temporibus maiores veritatis consectetur nostrum magni quibusdam quod ratione nulla accusantium repellendus, et quo perferendis deserunt recusandae incidunt! Debitis commodi nostrum dolorem illo obcaecati! Ut nemo omnis dolorum facilis optio error aliquid fugiat, itaque earum culpa debitis ducimus delectus vel cum cupiditate aut id saepe reiciendis consequuntur iure nisi rem ex vero? Quas praesentium repellat illo accusantium quisquam nemo, magni ut cumque ex vero laboriosam laborum perferendis perspiciatis inventore repudiandae tempore, sapiente exercitationem similique dolores voluptates eum. Iusto, cumque. Eius illum possimus ad dolorem saepe hic, temporibus adipisci perspiciatis nihil non id necessitatibus unde aperiam tempora quibusdam accusantium earum qui nemo ut soluta magni dolores ipsam architecto consectetur? Commodi exercitationem, ipsum corporis eius perferendis tenetur, cupiditate laudantium vero dolore quo odio nihil perspiciatis dolorum?</p>
             </article>
-            
+
             <aside class="card bg-primary">
                <h2>Join Our Club</h2>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, mollitia.</p>
@@ -67,8 +67,9 @@
       <div>
          <h3>Email News Letter</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-         <form>
-            <input type="email" placeholder="Enter email...">
+      <!-- Posted website to Netlify, so we are using their form rules -->
+         <form name="contact" method="POST" data-netlify="true">
+            <input type="email" name="email" placeholder="Enter email...">
             <input type="submit" value="Subscribe" class="btn btn-primary">
          </form>
       </div>

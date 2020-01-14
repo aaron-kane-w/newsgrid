@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <meta name="description" content="article page">
-   <title>Article</title>
+   <title>News Grid | Article</title>
    <!-- Font Awesome -->
    <script src="https://kit.fontawesome.com/0c393ee940.js" crossorigin="anonymous"></script>
    <!-- Google Fonts: Link has two font styles in it Lato & Staatliches -->
@@ -63,7 +63,7 @@
                   <li><a href="#"><i class="fas fa-chevron-right"></i> Shopping</a></li>
                </ul>
             </aside>
-            
+
             <aside class="card bg-secondary">
                <h2>Join Our Club</h2>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, mollitia.</p>
@@ -85,8 +85,9 @@
       <div>
          <h3>Email News Letter</h3>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-         <form>
-            <input type="email" placeholder="Enter email...">
+      <!-- Posted website to Netlify, so we are using their form rules -->
+         <form name="contact" method="POST" data-netlify="true">
+            <input type="email" name="email" placeholder="Enter email...">
             <input type="submit" value="Subscribe" class="btn btn-primary">
          </form>
       </div>
